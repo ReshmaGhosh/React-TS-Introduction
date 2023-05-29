@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import UserList from "./components/UserList";
 
 const userList = [
   {
@@ -198,7 +198,8 @@ const userList = [
 function App() {
   return (
     <div className="App">
-      <h1> React assignment</h1>
+      <h1> User List</h1>
+      <UserList userList={userList} />
     </div>
   );
 }
