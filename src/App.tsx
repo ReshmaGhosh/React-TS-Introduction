@@ -198,7 +198,6 @@ const userList = [
 function App() {
   return (
     <div className="App">
-      <h1> User List</h1>
       <UserList userList={userList} />
     </div>
   );
